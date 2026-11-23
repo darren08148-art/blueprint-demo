@@ -24,6 +24,8 @@ header.s{background:rgba(5,13,31,.82);backdrop-filter:blur(14px);-webkit-backdro
 .nav .btn{padding:11px 20px;font-size:14px}
 @media(max-width:860px){.nav ul{display:none}}
 /* hero */
+.logo-img{height:46px;max-width:150px}
+@media(max-width:560px){.logo-img{height:40px;max-width:200px}}
 .hero{position:relative;min-height:100vh;min-height:100svh;background:radial-gradient(120% 90% at 70% 0%,#10306b 0%,var(--navy2) 38%,var(--navy) 80%);color:#fff;overflow:hidden;display:flex;align-items:center}
 .layer{position:absolute;inset:-10% 0;pointer-events:none;will-change:transform}
 .l1{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;transform:translate3d(0,calc(var(--sy)*-.08px),0);mask-image:radial-gradient(70% 70% at 60% 40%,#000,transparent)}
